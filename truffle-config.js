@@ -46,6 +46,12 @@ module.exports = {
      port: 7545,            // Standard Ethereum port (default: none)
      network_id: "*",       // Any network (default: none)
     },
+    goerli:{
+      host:'localhost',
+      port:8545,
+      network_id:5,
+      gas:4700000
+    }
     //
     // An additional network, but with some advanced options…
     // advanced: {
